@@ -1,29 +1,33 @@
 {
-  "name": "____FIX_ME____",
-  "description": "____FIX_ME____",
+  "name": "alphabank-pay-node",
+  "description": "Node.JS библиотека для работы с процессингом Альфа-банк Pay",
   "license": "MIT",
   "author": "Konstantin Vyatkin <tino@vtkn.io>",
-  "homepage": "https://github.com/tinovyatkin/____FIX_ME____#readme",
+  "homepage": "https://github.com/tinovyatkin/alphabank-pay-node#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinovyatkin/____FIX_ME____.git"
+    "url": "git+https://github.com/tinovyatkin/alphabank-pay-node.git"
   },
   "bugs": {
-    "url": "https://github.com/tinovyatkin/____FIX_ME____/issues"
+    "url": "https://github.com/tinovyatkin/alphabank-pay-node/issues"
   },
+  "version": "1.0.0",
+  "main": "dist/index.js",
   "files": [
     "dist/**/*.d.ts",
     "dist/**/*.js"
   ],
-  "version": "1.0.0",
-  "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint --ext=ts ./src",
-    "test": "jest",
     "build": "tsc",
-    "prepublishOnly": "jest && tsc"
+    "lint": "eslint --ext=ts ./src",
+    "prepublishOnly": "jest && tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "gaxios": "3.0.3"
   },
   "devDependencies": {
+    "@proerd/swagger-ts-template": "1.16.3",
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
@@ -42,7 +46,11 @@
     "weak-napi": "2.0.1"
   },
   "keywords": [
-    "____FIX_ME____"
+    "alphabank",
+    "pay",
+    "payment-integration",
+    "payment-processing",
+    "typescript"
   ],
   "engines": {
     "yarn": ">=1.19"
