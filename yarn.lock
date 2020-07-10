@@ -2188,10 +2188,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gaxios@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-3.0.3.tgz#497730758f5b0d43a32ebdbebe5f1bd9f7db7aed"
-  integrity sha512-PkzQludeIFhd535/yucALT/Wxyj/y2zLyrMwPcJmnLHDugmV49NvAi/vb+VUq/eWztATZCNcb8ue+ywPG+oLuw==
+gaxios@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-3.0.4.tgz#4714fbb003d6f6f08a297f772284463e041e04db"
+  integrity sha512-97NmFuMETFQh6gqPUxkqjxRMjmY8aRKRMphIkgO/b90AbCt5wAVuXsp8oWjIXlLN2pIK/fsXD8edcM7ULkFMLg==
   dependencies:
     abort-controller "^3.0.0"
     extend "^3.0.2"

@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/tinovyatkin/alphabank-pay-node/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "files": [
     "dist/**/*.d.ts",
@@ -24,7 +24,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "gaxios": "3.0.3"
+    "gaxios": "3.0.4"
   },
   "devDependencies": {
     "@proerd/swagger-ts-template": "1.16.3",
