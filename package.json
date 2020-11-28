@@ -27,7 +27,7 @@
     "gaxios": "3.1.0"
   },
   "devDependencies": {
-    "@proerd/swagger-ts-template": "1.16.3",
+    "@proerd/swagger-ts-template": "1.17.2",
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",

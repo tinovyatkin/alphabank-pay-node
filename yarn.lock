@@ -611,10 +611,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@proerd/swagger-ts-template@1.16.3":
-  version "1.16.3"
-  resolved "https://registry.yarnpkg.com/@proerd/swagger-ts-template/-/swagger-ts-template-1.16.3.tgz#01ab2f9c3a33a595799989deece1111749773918"
-  integrity sha512-WNOm8//h4NiVGUYqc+uDTbrm/5Zde7zGTDqtkMJo3ESSFWuLlbOu2GV+8xTs5LOMHQ+DoVers8j6w8dWRsmgXw==
+"@proerd/swagger-ts-template@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@proerd/swagger-ts-template/-/swagger-ts-template-1.17.2.tgz#51d0ce7ed397379245387215b8199dcbf3bc7ef2"
+  integrity sha512-phGoi8s+ZBxSNy/zUvqmIjZsRDzx+AFPqBH/CkUbCSTVDM8oE92IlV1tOzdz59/pLk2HV3r2CHejeJqOxYJ+fA==
   dependencies:
     "@types/prettier" "^1.18.3"
     cp "^0.2.0"
